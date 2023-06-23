@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="ORSStudentMarksheet"
+  id="myeclipse.1324549306404"
+  context-root="/ORSStudentMarksheet"
+  j2ee-spec="1.4"
+  archive="ORSStudentMarksheet.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

@@ -1,0 +1,1 @@
+ <a href="LogoutCtl?operation=logout">logout</a> 

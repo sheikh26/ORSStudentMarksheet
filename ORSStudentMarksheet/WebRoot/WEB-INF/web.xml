@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+	http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>MarksheetServlet</servlet-name>
+		<servlet-class>MarksheetServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>MarksheetCtl</servlet-name>
+		<servlet-class>MarksheetServlet.MarksheetCtl</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>MarksheetListCtl</servlet-name>
+		<servlet-class>MarksheetServlet.MarksheetListCtl</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>RagistrationCtl</servlet-name>
+		<servlet-class>MarksheetServlet.RagistrationCtl</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>LoginCtl</servlet-name>
+		<servlet-class>MarksheetServlet.LoginCtl</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>LogoutCtl</servlet-name>
+		<servlet-class>MarksheetServlet.LogoutCtl</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>RollNoCtl</servlet-name>
+		<servlet-class>MarksheetServlet.RollNoCtl</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>RollNoCtl1</servlet-name>
+		<servlet-class>MarksheetServlet.RollNoCtl1</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MarksheetServlet</servlet-name>
+		<url-pattern>/MarksheetServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>MarksheetCtl</servlet-name>
+		<url-pattern>/MarksheetCtl</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>MarksheetListCtl</servlet-name>
+		<url-pattern>/MarksheetListCtl</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>RagistrationCtl</servlet-name>
+		<url-pattern>/RagistrationCtl</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>LoginCtl</servlet-name>
+		<url-pattern>/LoginCtl</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>LogoutCtl</servlet-name>
+		<url-pattern>/LogoutCtl</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>RollNoCtl</servlet-name>
+		<url-pattern>/RollNoCtl</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>RollNoCtl1</servlet-name>
+		<url-pattern>/RollNoCtl1</url-pattern>
+	</servlet-mapping>
+
+	<filter id="filter">
+		<filter-name>user</filter-name>
+		<filter-class>Com.filter.filter</filter-class>
+	</filter>
+
+	<filter-mapping>
+		<filter-name>user</filter-name>
+		<servlet-name>MarksheetCtl</servlet-name>
+	</filter-mapping>
+
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>
